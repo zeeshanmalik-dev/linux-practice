@@ -1,0 +1,5 @@
+ERROR: Login failed
+INFO: User logged in
+WARNING: Disk space low
+ERROR: Connection failed
+INFO: Service started
