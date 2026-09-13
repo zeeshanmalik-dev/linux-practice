@@ -4,6 +4,10 @@
 * **Command Used:** `cat readme`
 * **Explanation:** Used `cat` to read the text inside the `readme` file sitting in the home folder.
 * **Key Takeaway:** `cat` outputs the full text of a file straight to your terminal.
+## Level 1 -> Level 2
+* **Command Used:** `cat ./-`
+* **Explanation:** Used `./-` so `cat` treats `-` as a file path instead of waiting for standard input.
+* **Key Takeaway:** Put `./` in front of filenames that start with a dash so Linux doesn't mistake them for command options or stdin.
 ## Level 2 -> Level 3
 * **Command Used:** `cat ./"--spaces in this filename--"`
 * **Explanation:** Used `./` and quotes because the filename starts with dashes and contains spaces.
